@@ -1,0 +1,11 @@
+1. Chunking
+Large document ko smaller meaningful pieces (chunks) mein divide karte hain, taaki retrieval ke time relevant portion hi LLM ko diya ja sake.
+
+2. Embeddings
+Text ko numerical vector mein convert karte hain jo uske semantic meaning ko represent karta hai.
+
+3. Similarity Search
+Query embedding ko stored chunk embeddings ke saath compare karke semantically similar chunks find karte hain. Cosine similarity commonly use hoti hai.
+
+4. FAISS
+FAISS (Facebook AI Similarity Search) vectors ko index karke efficient similarity search karne ki library hai.
